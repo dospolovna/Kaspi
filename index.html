@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Главная и экран кода доступа.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' file:; style-src 'self' file: 'unsafe-inline'; img-src 'self' file: data:; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
+  <title>Главная</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <svg class="home-definitions" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs><filter id="surface-white" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncR type="table" tableValues="0.000000 0.003922 0.007843 0.011765 0.015686 0.019608 0.023529 0.027451 0.031373 0.035294 0.039216 0.043137 0.047059 0.050980 0.054902 0.058824 0.062745 0.066667 0.070588 0.074510 0.078431 0.082353 0.086275 0.090196 0.094118 0.098039 0.101961 0.105882 0.109804 0.113725 0.117647 0.121569 0.125490 0.129412 0.133333 0.137255 0.141176 0.145098 0.149020 0.152941 0.156863 0.160784 0.164706 0.168627 0.172549 0.176471 0.180392 0.184314 0.188235 0.192157 0.196078 0.200000 0.203922 0.207843 0.211765 0.215686 0.219608 0.223529 0.227451 0.231373 0.235294 0.239216 0.243137 0.247059 0.250980 0.254902 0.258824 0.262745 0.266667 0.270588 0.274510 0.278431 0.282353 0.286275 0.290196 0.294118 0.298039 0.301961 0.305882 0.309804 0.313725 0.317647 0.321569 0.325490 0.329412 0.333333 0.337255 0.341176 0.345098 0.349020 0.352941 0.356863 0.360784 0.364706 0.368627 0.372549 0.376471 0.380392 0.384314 0.388235 0.392157 0.396078 0.400000 0.403922 0.407843 0.411765 0.415686 0.419608 0.423529 0.427451 0.431373 0.435294 0.439216 0.443137 0.447059 0.450980 0.454902 0.458824 0.462745 0.466667 0.470588 0.474510 0.478431 0.482353 0.486275 0.490196 0.494118 0.498039 0.501961 0.505882 0.509804 0.513725 0.517647 0.521569 0.525490 0.529412 0.533333 0.537255 0.541176 0.545098 0.549020 0.552941 0.556863 0.560784 0.564706 0.568627 0.572549 0.576471 0.580392 0.584314 0.588235 0.592157 0.596078 0.600000 0.603922 0.607843 0.611765 0.615686 0.619608 0.623529 0.627451 0.631373 0.635294 0.639216 0.643137 0.647059 0.650980 0.654902 0.658824 0.662745 0.666667 0.670588 0.674510 0.678431 0.682353 0.686275 0.690196 0.694118 0.698039 0.701961 0.705882 0.709804 0.713725 0.717647 0.721569 0.725490 0.729412 0.733333 0.737255 0.741176 0.745098 0.749020 0.752941 0.756863 0.760784 0.764706 0.768627 0.772549 0.776471 0.780392 0.784314 0.788235 0.792157 0.796078 0.800000 0.803922 0.807843 0.811765 0.815686 0.819608 0.823529 0.827451 0.831373 0.835294 0.839216 0.843137 0.847059 0.850980 0.854902 0.858824 0.862745 0.866667 0.870588 0.874510 0.878431 0.882353 0.886275 0.890196 0.894118 0.898039 0.901961 0.905882 0.909804 0.913725 0.917647 0.921569 0.925490 0.929412 0.933333 0.937255 0.941176 0.945098 0.949020 0.952941 0.956863 0.960784 0.964706 0.980392 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000"/><feFuncG type="table" tableValues="0.000000 0.003922 0.007843 0.011765 0.015686 0.019608 0.023529 0.027451 0.031373 0.035294 0.039216 0.043137 0.047059 0.050980 0.054902 0.058824 0.062745 0.066667 0.070588 0.074510 0.078431 0.082353 0.086275 0.090196 0.094118 0.098039 0.101961 0.105882 0.109804 0.113725 0.117647 0.121569 0.125490 0.129412 0.133333 0.137255 0.141176 0.145098 0.149020 0.152941 0.156863 0.160784 0.164706 0.168627 0.172549 0.176471 0.180392 0.184314 0.188235 0.192157 0.196078 0.200000 0.203922 0.207843 0.211765 0.215686 0.219608 0.223529 0.227451 0.231373 0.235294 0.239216 0.243137 0.247059 0.250980 0.254902 0.258824 0.262745 0.266667 0.270588 0.274510 0.278431 0.282353 0.286275 0.290196 0.294118 0.298039 0.301961 0.305882 0.309804 0.313725 0.317647 0.321569 0.325490 0.329412 0.333333 0.337255 0.341176 0.345098 0.349020 0.352941 0.356863 0.360784 0.364706 0.368627 0.372549 0.376471 0.380392 0.384314 0.388235 0.392157 0.396078 0.400000 0.403922 0.407843 0.411765 0.415686 0.419608 0.423529 0.427451 0.431373 0.435294 0.439216 0.443137 0.447059 0.450980 0.454902 0.458824 0.462745 0.466667 0.470588 0.474510 0.478431 0.482353 0.486275 0.490196 0.494118 0.498039 0.501961 0.505882 0.509804 0.513725 0.517647 0.521569 0.525490 0.529412 0.533333 0.537255 0.541176 0.545098 0.549020 0.552941 0.556863 0.560784 0.564706 0.568627 0.572549 0.576471 0.580392 0.584314 0.588235 0.592157 0.596078 0.600000 0.603922 0.607843 0.611765 0.615686 0.619608 0.623529 0.627451 0.631373 0.635294 0.639216 0.643137 0.647059 0.650980 0.654902 0.658824 0.662745 0.666667 0.670588 0.674510 0.678431 0.682353 0.686275 0.690196 0.694118 0.698039 0.701961 0.705882 0.709804 0.713725 0.717647 0.721569 0.725490 0.729412 0.733333 0.737255 0.741176 0.745098 0.749020 0.752941 0.756863 0.760784 0.764706 0.768627 0.772549 0.776471 0.780392 0.784314 0.788235 0.792157 0.796078 0.800000 0.803922 0.807843 0.811765 0.815686 0.819608 0.823529 0.827451 0.831373 0.835294 0.839216 0.843137 0.847059 0.850980 0.854902 0.858824 0.862745 0.866667 0.870588 0.874510 0.878431 0.882353 0.886275 0.890196 0.894118 0.898039 0.901961 0.905882 0.909804 0.913725 0.917647 0.921569 0.925490 0.929412 0.933333 0.937255 0.941176 0.945098 0.949020 0.952941 0.956863 0.960784 0.964706 0.980392 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000"/><feFuncB type="table" tableValues="0.000000 0.003922 0.007843 0.011765 0.015686 0.019608 0.023529 0.027451 0.031373 0.035294 0.039216 0.043137 0.047059 0.050980 0.054902 0.058824 0.062745 0.066667 0.070588 0.074510 0.078431 0.082353 0.086275 0.090196 0.094118 0.098039 0.101961 0.105882 0.109804 0.113725 0.117647 0.121569 0.125490 0.129412 0.133333 0.137255 0.141176 0.145098 0.149020 0.152941 0.156863 0.160784 0.164706 0.168627 0.172549 0.176471 0.180392 0.184314 0.188235 0.192157 0.196078 0.200000 0.203922 0.207843 0.211765 0.215686 0.219608 0.223529 0.227451 0.231373 0.235294 0.239216 0.243137 0.247059 0.250980 0.254902 0.258824 0.262745 0.266667 0.270588 0.274510 0.278431 0.282353 0.286275 0.290196 0.294118 0.298039 0.301961 0.305882 0.309804 0.313725 0.317647 0.321569 0.325490 0.329412 0.333333 0.337255 0.341176 0.345098 0.349020 0.352941 0.356863 0.360784 0.364706 0.368627 0.372549 0.376471 0.380392 0.384314 0.388235 0.392157 0.396078 0.400000 0.403922 0.407843 0.411765 0.415686 0.419608 0.423529 0.427451 0.431373 0.435294 0.439216 0.443137 0.447059 0.450980 0.454902 0.458824 0.462745 0.466667 0.470588 0.474510 0.478431 0.482353 0.486275 0.490196 0.494118 0.498039 0.501961 0.505882 0.509804 0.513725 0.517647 0.521569 0.525490 0.529412 0.533333 0.537255 0.541176 0.545098 0.549020 0.552941 0.556863 0.560784 0.564706 0.568627 0.572549 0.576471 0.580392 0.584314 0.588235 0.592157 0.596078 0.600000 0.603922 0.607843 0.611765 0.615686 0.619608 0.623529 0.627451 0.631373 0.635294 0.639216 0.643137 0.647059 0.650980 0.654902 0.658824 0.662745 0.666667 0.670588 0.674510 0.678431 0.682353 0.686275 0.690196 0.694118 0.698039 0.701961 0.705882 0.709804 0.713725 0.717647 0.721569 0.725490 0.729412 0.733333 0.737255 0.741176 0.745098 0.749020 0.752941 0.756863 0.760784 0.764706 0.768627 0.772549 0.776471 0.780392 0.784314 0.788235 0.792157 0.796078 0.800000 0.803922 0.807843 0.811765 0.815686 0.819608 0.823529 0.827451 0.831373 0.835294 0.839216 0.843137 0.847059 0.850980 0.854902 0.858824 0.862745 0.866667 0.870588 0.874510 0.878431 0.882353 0.886275 0.890196 0.894118 0.898039 0.901961 0.905882 0.909804 0.913725 0.917647 0.921569 0.925490 0.929412 0.933333 0.937255 0.941176 0.945098 0.949020 0.952941 0.956863 0.960784 0.964706 0.980392 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000"/></feComponentTransfer></filter><image id="screen-reference" width="709" height="1536" href="./assets/home-services.jpg"/><image id="search-reference" width="851" height="147" href="./assets/search.jpg"/><image id="footer-reference" width="852" height="147" href="./assets/bottom-nav.jpg"/></defs></svg>
+  <main class="home-app" id="home-app" aria-label="Главная" tabindex="-1">
+    <div class="home-content">
+      <header class="home-search-header"><svg class="home-picture " viewBox="0 0 851 147" role="img" aria-label="Поиск по Kaspi.kz" filter="url(#surface-white)"><use href="#search-reference"/></svg></header>
+      <section class="home-promotions" aria-label="Большая распродажа"><svg class="home-banner" viewBox="61 29 1453 442" role="img" aria-label="Большая распродажа. Скидки до 70%.">
+        <image width="1536" height="538" href="./assets/sale-banner.jpg"/>
+      </svg></section>
+      <div class="home-divider" aria-hidden="true"></div>
+      <section class="home-service-grid" aria-label="Сервисы">
+        <svg class="home-picture " viewBox="0 475 709 308" role="img" aria-label="Kaspi QR, Мой Банк, Платежи, Переводы, Магазин, Travel, Госуслуги, Объявления" filter="url(#surface-white)"><use href="#screen-reference"/></svg>
+        <button class="home-transfer" id="open-transfers" type="button" aria-label="Переводы"><span class="sr-only">Переводы</span></button>
+      </section>
+      <section class="home-added" aria-label="Magnum, Kaspi Red және тауарлар">
+        <svg filter="url(#surface-white)" viewBox="20 114 1268 984" role="img" aria-label="Magnum. Азық-түлікті үйге тегін алдыру. Зат сатып алуға Кредит. Kaspi Red. Тауарлар.">
+          <image width="1324" height="1188" href="./assets/home-offers.jpg"/>
+        </svg>
+      </section>
+    </div>
+    <nav class="home-bottom" aria-label="Нижнее меню"><svg class="home-picture " viewBox="0 0 852 147" role="img" aria-label="Главная. Kaspi QR. Сообщения. Сервисы." filter="url(#surface-white)"><use href="#footer-reference"/></svg></nav>
+  </main>
+
+  <main class="transfers-app" id="transfers-app" aria-labelledby="transfers-title" tabindex="-1" hidden>
+    <div class="transfers-top">
+    <header class="transfer-header">
+      <button class="transfers-back" id="transfers-back" type="button" aria-label="Назад на главную"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 3-9 9 9 9"/></svg></button>
+      <h1 id="transfers-title">Переводы</h1>
+    </header>
+    <div class="transfer-tabs" aria-label="Раздел переводов"><span class="transfer-tab selected">Мои Переводы</span><span class="transfer-tab">История</span></div>
+    </div>
+    <div class="transfers-content">
+      <section class="transfers-menu" aria-label="Мои переводы"><div class="transfer-row"><span class="transfer-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 14v-2a6 6 0 0 1 6-6h16m-5-4 5 4-5 4M27 18v2a6 6 0 0 1-6 6H5m5-4-5 4 5 4"/></svg></span><span class="transfer-copy"><span class="transfer-title">Между своими счетами</span></span><svg class="transfer-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 7 7-7 7"/></svg></div><button class="transfer-row transfer-client" id="open-client" type="button" aria-label="Клиенту Kaspi. На карту Kaspi Gold"><span class="transfer-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="12" cy="9" r="4.5"/><path d="M16 26H4v-3a8 8 0 0 1 11-7"/><g class="kaspi-client-badge" transform="translate(17 17) scale(.14)" stroke="none">
+  <defs><clipPath id="kaspi-client-badge-clip"><circle cx="50" cy="50" r="50"/></clipPath></defs>
+  <circle cx="50" cy="50" r="50" fill="currentColor"/>
+  <g clip-path="url(#kaspi-client-badge-clip)" fill="#ffffff">
+    <ellipse cx="34" cy="20" rx="7.1" ry="8.5" transform="rotate(20 34 20)"/>
+    <ellipse cx="72" cy="36" rx="6.3" ry="8.2" transform="rotate(10 72 36)"/>
+    <path d="M27 31C21 35 20 45 20 59L21 91L28 96L29 70Q30 65 32 70L36 99L45 100L42 64C42 54 42 51 46 50C50 49 55 51 59 53C63 55 64 61 64 68L64 98L72 95L72 74Q73 67 75 73L81 91L88 86L81 61C79 55 80 51 83 47L94 32Q97 27 93 26Q90 25 87 30L77 41C68 50 54 49 48 45C43 42 42 36 40 33Q35 28 27 31Z"/>
+  </g>
+</g></svg></span><span class="transfer-copy"><span class="transfer-title">Клиенту Kaspi</span><span class="transfer-subtitle">На карту Kaspi Gold</span></span><svg class="transfer-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 7 7-7 7"/></svg></button><div class="transfer-row"><span class="transfer-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="3" y="4" width="21" height="17" rx="3"/><rect x="10" y="13" width="20" height="16" rx="3" fill="#fafafa"/><path d="M3 10h21M10 19h20"/></svg></span><span class="transfer-copy"><span class="transfer-title">Карта другого банка</span><span class="transfer-subtitle">С карты на карту</span></span><svg class="transfer-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 7 7-7 7"/></svg></div><div class="transfer-row"><span class="transfer-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><ellipse cx="16" cy="16" rx="5" ry="12"/><path d="M4 16h24M6 9c6 5 14 5 20 0M6 23c6-5 14-5 20 0"/></svg></span><span class="transfer-copy"><span class="transfer-title">Международные переводы</span><span class="transfer-subtitle">По номеру карты или телефона</span></span><svg class="transfer-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 7 7-7 7"/></svg></div><div class="transfer-row"><span class="transfer-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M10 3H3v7m19-7h7v7M3 22v7h7m12 0h7v-7"/><rect x="7" y="7" width="6" height="6" rx=".5"/><rect x="19" y="7" width="6" height="6" rx=".5"/><rect x="7" y="19" width="6" height="6" rx=".5"/><path d="M19 19h3v3h3v3h-6v-3M25 17v2M17 25v4"/></svg></span><span class="transfer-copy"><span class="transfer-title">Kaspi QR</span><span class="transfer-subtitle">Сканируйте и платите</span></span><svg class="transfer-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 7 7-7 7"/></svg></div></section>
+    </div>
+    <nav class="transfers-bottom" aria-label="Нижнее меню"><svg class="home-picture " viewBox="0 0 852 147" role="img" aria-label="Главная. Kaspi QR. Сообщения. Сервисы." filter="url(#surface-white)"><use href="#footer-reference"/></svg>
+      <button class="transfers-home" id="transfers-home" type="button" aria-label="Главная"></button>
+    </nav>
+  </main>
+  <div class="client-layer" id="client-layer" aria-hidden="true" inert>
+    <main class="client-app" id="client-app" aria-labelledby="client-title" tabindex="-1" hidden>
+      <header class="client-header">
+        <button class="client-back" id="client-back" type="button" aria-label="Назад к переводам"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 3-9 9 9 9"/></svg></button>
+        <h1 id="client-title">Клиенту Kaspi</h1>
+      </header>
+      <div class="client-scroll">
+        <div class="client-account"><svg class="client-gold-icon" viewBox="0 0 80 56" aria-hidden="true"><rect width="80" height="56" rx="7" fill="#c69c55" stroke="none"/><g transform="translate(22 10) scale(.36)" stroke="none"><defs><clipPath id="client-gold-mark-clip"><circle cx="50" cy="50" r="50"/></clipPath></defs><circle cx="50" cy="50" r="50" fill="#ffffff"/><g clip-path="url(#client-gold-mark-clip)" fill="#c69c55">
+    <ellipse cx="34" cy="20" rx="7.1" ry="8.5" transform="rotate(20 34 20)"/>
+    <ellipse cx="72" cy="36" rx="6.3" ry="8.2" transform="rotate(10 72 36)"/>
+    <path d="M27 31C21 35 20 45 20 59L21 91L28 96L29 70Q30 65 32 70L36 99L45 100L42 64C42 54 42 51 46 50C50 49 55 51 59 53C63 55 64 61 64 68L64 98L72 95L72 74Q73 67 75 73L81 91L88 86L81 61C79 55 80 51 83 47L94 32Q97 27 93 26Q90 25 87 30L77 41C68 50 54 49 48 45C43 42 42 36 40 33Q35 28 27 31Z"/>
+  </g></g></svg><span class="client-card-name">Kaspi Gold</span><span class="client-balance">5 144,05 ₸</span></div>
+        <div class="client-account-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 9 7 7 7-7"/></svg></div>
+        <div class="client-tabs" aria-label="Способ перевода"><span class="client-tab selected">Телефон</span><span class="client-tab">Карта</span><span class="client-tab"><svg class="client-tab-qr" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 3H3v6m20-6h6v6M3 23v6h6m14 0h6v-6"/><path d="M7 7h6v6H7zm12 0h6v6h-6zM7 19h6v6H7zM19 19h3v3h3v3h-6v-3m6-5v2m-8 6v4"/></svg>Kaspi QR</span></div>
+        <div class="client-fields">
+          <label class="client-field client-phone-field" id="client-phone-field"><span class="client-phone-label" id="client-phone-label">Телефон получателя</span><input id="client-phone" type="tel" inputmode="numeric" pattern="[+]7 [(][0-9 ]{3}[)] [0-9 ]{3}-[0-9 ]{2}-[0-9 ]{2}" maxlength="32" autocomplete="off" aria-labelledby="client-phone-label"><svg class="client-contact-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="9" r="3.5" fill="currentColor" stroke="none"/><path d="M5 18a7.5 7.5 0 0 1 14 0" fill="currentColor" stroke="none"/></svg></label>
+          <label class="client-field client-amount-field"><span class="sr-only">Сумма перевода в тенге</span><input class="client-amount-input" id="client-amount" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="12" autocomplete="off" placeholder="0" aria-label="Сумма перевода в тенге"><span class="client-currency" aria-hidden="true">₸</span></label>
+          <div class="client-message-block"><label class="sr-only" for="client-message">Сообщение получателю</label><textarea id="client-message" maxlength="50" rows="3" placeholder="Сообщение получателю"></textarea><div class="client-message-count" id="client-message-count">0/50</div></div>
+        </div>
+        <div class="client-message-hints" aria-label="Быстрые сообщения"><button type="button" data-message="Рақмет!">Рақмет!</button><button type="button" data-message="За обед">За обед</button><button type="button" data-message="Возвращаю :)">Возвращаю :)</button></div>
+      </div>
+      <footer class="client-footer"><button class="client-submit" id="client-submit" type="button" disabled>Перевести 0 ₸</button></footer>
+    </main>
+  </div>
+  <div class="pin-layer" id="pin-layer" aria-hidden="true">
+  <div class="pin-scroll">
+  <main class="page" id="pin-app" aria-labelledby="pin-title" tabindex="-1" hidden>
+    <header class="top-nav">
+      <button class="icon-button" id="back-btn" type="button" aria-label="Назад">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M10 4H5v16h5M14 8l4 4-4 4M9 12h9"/></svg>
+      </button>
+      <button class="icon-button" id="close-btn" type="button" aria-label="Закрыть">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></svg>
+      </button>
+    </header>
+    <section class="profile" aria-label="Профиль">
+      <div class="avatar" aria-hidden="true">
+        <svg viewBox="0 0 80 80">
+          <circle cx="40" cy="40" r="38.5" fill="none" stroke="#e1e1e1" stroke-width="1.5"/>
+          <path fill="#d0d0d0" d="M19 70v-5c0-5 5-8 12-11 2-1 3-3 3-6-3-3-5-8-5-14-2-5-1-12 3-15 4-3 13-3 17 0 4 3 4 10 3 15 0 6-2 11-5 14 0 3 1 5 3 6 7 3 12 6 12 11v5c-12 7-31 7-43 0Z"/>
+        </svg>
+      </div>
+      <h2 class="name">Арман Т.</h2>
+    </section>
+    <section class="pin-area">
+      <h1 id="pin-title">Код доступа</h1>
+      <div class="dots" id="dots-container" role="img" aria-label="Введено 0 из 4 цифр">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </div>
+      <div class="loader-slot">
+        <div class="spinner" id="spinner" aria-hidden="true" hidden>
+          <svg viewBox="0 0 26 26"><path d="M13 2.5a10.5 10.5 0 1 1-10.5 10.5"/></svg>
+        </div>
+      </div>
+    </section>
+    <section class="keypad" id="keypad" aria-label="Цифровая клавиатура">
+      <button class="key" type="button" data-key>1</button>
+      <button class="key" type="button" data-key>2</button>
+      <button class="key" type="button" data-key>3</button>
+      <button class="key" type="button" data-key>4</button>
+      <button class="key" type="button" data-key>5</button>
+      <button class="key" type="button" data-key>6</button>
+      <button class="key" type="button" data-key>7</button>
+      <button class="key" type="button" data-key>8</button>
+      <button class="key" type="button" data-key>9</button>
+      <button class="key" id="face-btn" type="button" aria-label="Face ID">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3H5a2 2 0 0 0-2 2v2m14-4h2a2 2 0 0 1 2 2v2M3 17v2a2 2 0 0 0 2 2h2m10 0h2a2 2 0 0 0 2-2v-2M8 9v2m8-2v2M12 9v5h-1m-3 2c2 2 6 2 8 0"/></svg>
+      </button>
+      <button class="key" type="button" data-key>0</button>
+      <button class="key delete" id="delete-btn" type="button" aria-label="Удалить последнюю цифру" disabled>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 9 6 6m0-6-6 6M9 5h11a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H9l-7-7 7-7Z"/></svg>
+      </button>
+    </section>
+    <button class="forgot" id="forgot-btn" type="button">Забыли код доступа?</button>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <p class="sr-only" id="pin-status" role="status" aria-live="polite"></p>
+  </main>
+  </div>
+  <div class="loading-overlay" id="loading-overlay" aria-hidden="true" hidden></div>
+  </div>
+  <script src="./script.js" defer></script>
+</body>
+</html>
